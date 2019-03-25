@@ -5,8 +5,10 @@ def get_file_contents(filename):
         return queried_file.read()
 
 
-content = get_file_contents('file-section/text_content.txt')
+content = get_file_contents("file-section/text_content.txt")
 
 print(content)
 
 print("Number of words", len(content.split()))
+
+
